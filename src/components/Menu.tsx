@@ -34,6 +34,12 @@ const appPages: AppPage[] = [
     url: '/page/loginAdmin',
     iosIcon: personOutline,
     mdIcon: personOutline
+  },
+  {
+    title: 'person',
+    url: '/personinfo/foo',
+    iosIcon: personOutline,
+    mdIcon: personOutline
   }
 ];
 

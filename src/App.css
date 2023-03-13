@@ -1,0 +1,17 @@
+selector {
+    // Include directional properties via mixins
+    @include padding(0, 10px, null, 5px);
+  
+    // Direction agnostic styles go here
+    background-color: black;
+  
+    @include ltr() {
+       // Custom ltr styles go here
+       order: 1;
+    }
+  
+    @include rtl() {
+      // Custom rtl styles go here
+      order: -1;
+    }
+  }
